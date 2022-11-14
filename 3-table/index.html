@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Table</title>
+
+        <style>
+            th,
+            td {
+                border: 1px solid black;
+                padding: 15px 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Les tableaux</h1>
+
+            <!-- Un tableau se compose d'une balise <table></table> -->
+            <!-- Pour chaque ligne on ajoute la balise <tr></tr> -->
+            <!-- Pour chaque cellule on ajoute la balise <td></td> -->
+            <!-- Les balises <td></td> peuvent être remplacé par <th></th> pour les titres -->
+
+            <!-- table>caption+tr*4>td*3 -->
+            <table>
+                <!-- Pour lier un titre à un tableau, j'utilise la balise <caption></caption> -->
+                <caption>
+                    Mon super tableau
+                </caption>
+                <thead>
+                    <tr>
+                        <th>HT</th>
+                        <th>TVA</th>
+                        <th>TTC</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>HT</th>
+                        <th>TVA</th>
+                        <th>TTC</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>200</td>
+                        <td>20%</td>
+                        <td>240</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>10%</td>
+                        <td>110</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

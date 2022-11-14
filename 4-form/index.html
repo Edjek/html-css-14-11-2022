@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Form</title>
+    </head>
+    <body>
+        <div>
+            <h1>Les formulaires</h1>
+
+            <!-- Un formulaire se compose de la balise <form></form> qui va entourer tous les champs -->
+            <form>
+                <div>
+                    <!-- Un champ de formulaire se compose d'un <label> et de son <input> -->
+                    <!-- Pour lier les deux, l'attribut for="" et id="" doivent avoir la même valeur et être unique dans le formulaire -->
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" />
+                </div>
+
+                <div>
+                    <label for="pswd">Mot de passe</label>
+                    <input type="password" id="pswd" />
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
+                </div>
+
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" />
+                </div>
+
+                <div>
+                    <label for="color">Couleur</label>
+                    <input type="color" id="color" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
