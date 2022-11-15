@@ -1,0 +1,39 @@
+/* CSS Cascading Style Sheet */
+/* Je suis un commentaire en CSS */
+
+/* Pensez au style en cascade */
+
+/* On peut selectionner les noms de balises HTML */
+/* Consequences tous les elements de ce type seront modifiés */
+body {
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+
+/* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
+/* Conséquence tous les elements qui ont cette class seront modifiés */
+.txt-color-blue {
+    color: blue;
+}
+
+/* On peut selectionner une balise spécifique grâce à son id en utilisant un # */
+/* Conséquence l'element qui a cet id sera modifié */
+/* On préfère laisser les ID au Javascript sauf exception */
+#sport {
+    color: orange;
+}
+
+/* Je peux selectionner plusieurs elements en les séparant par une virgule */
+h4,
+.movies {
+    color: pink;
+}
+
+/* On peut selectionner des balises spécifiques par selecteur descendant */
+/* Ici les h2 qui se trouveraient dans une div qui a la class heading */
+.heading h2 {
+    color: gold;
+}

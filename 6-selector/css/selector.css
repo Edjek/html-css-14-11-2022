@@ -1,0 +1,28 @@
+/* Practice selector */
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: pink;
+}
+
+.subtitle {
+    color: blue;
+}
+
+h4, .sports li {
+    color: orange;
+}
+
+.txt-purple {
+    color: purple;
+}
+
+.links h2 {
+    color: red;
+}
+
+.movies {
+    color: green;
+}

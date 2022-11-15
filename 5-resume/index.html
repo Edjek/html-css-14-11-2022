@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Resume</title>
+        <style>
+            th,
+            td {
+                border: 1px solid black;
+                padding: 15px 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Un peu de pratique générale</h1>
+        </div>
+
+        <hr />
+
+        <div>
+            <h2>Introduction</h2>
+            <h3>Nous avons vu les principales balise HTML</h3>
+            <p>
+                les paragraphes pour ecrire du texte et mettre en avant <strong>certains mots</strong>
+                <br />
+                et quelques notions de <em>bonnes pratique!</em>
+            </p>
+            <h3>Les règles de nommages</h3>
+            <ul>
+                <li>pas de caractères spéciaux ou avec accent</li>
+                <li>pas d'espace entre les mots</li>
+                <li>tout en minuscule</li>
+                <li>et on separe les mots avec -</li>
+            </ul>
+            <h3>on a vu qu'on pouvait mettre des images, des liens cliquables</h3>
+            <p>On peut même rendre image cliquable</p>
+            <a href="">
+                <img src="img/bart.png" alt="" />
+            </a>
+        </div>
+
+        <hr />
+
+        <div>
+            <h2>Les tableaux</h2>
+            <h3>Les languages que l'on voit cette semaine</h3>
+            <table>
+                <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr />
+   
+        <div>
+            <h2>Les formulaires</h2>
+            <form>
+                <div>
+                    <label for="name">nom</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="">mot de passe</label>
+                    <input type="password" />
+                </div>
+                <input type="submit">
+                <input type="reset" value="Effacer">
+            </form>
+        </div>
+    </body>
+</html>

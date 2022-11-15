@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Formulaire exemplaire</title>
+        <!-- <style>
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style> -->
+    </head>
+    <body>
+        <div>
+            <form>
+                <table>
+                    <!-- Je met un titre au tableau -->
+                    <caption>
+                        Nouvelle exercice
+                    </caption>
+                    <tr>
+                        <td>
+                            <label for="name">Pseudo</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" required placeholder="choisissez un pseudo" autofocus />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pwd">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" required id="pwd" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="transport">Véhicule</label>
+                        </td>
+                        <td>
+                            <select id="transport">
+                                <option value="car">voiture</option>
+                                <option value="bike">moto</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="information">Dites nous en plus sur vous?</label>
+                        </td>
+                        <td>
+                            <textarea id="information"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sexe</td>
+                        <td>
+                            <input type="radio" name="sex" id="men" value="homme" />
+                            <label for="men">Homme</label>
+                            <input type="radio" name="sex" id="women" value="femme" />
+                            <label for="women">Femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sports pratiqués?</td>
+                        <td>
+                            <input type="checkbox" id="tennis" />
+                            <label for="tennis">tennis</label>
+                            <input type="checkbox" id="foot" />
+                            <label for="foot">foot</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Télécharger</label>
+                        </td>
+                        <td>
+                            <input type="file" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
