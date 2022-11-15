@@ -1,0 +1,51 @@
+body {
+    /* Police de caractère */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Taille de la police */
+    font-size: 20px;
+
+    /* Epaisseur de la police */
+    font-weight: normal;
+    /* lighter | normal | bold */
+
+    /* Style de la police */
+    font-style: normal;
+    /* oblique | normal |italic */
+
+    /* Alignement du texte */
+    text-align: center;
+    /* center | left | right | justify */
+}
+
+p {
+    /* Majuscule, Minuscule */
+    text-transform: uppercase;
+    /* lowercase | none | capitalize */
+
+    /* Il existe plusieurs unités pour les couleurs */
+    /* color: rgb(36, 142, 34); */
+    /* color: black; */
+    color: #333;
+}
+
+.css {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li {
+    /* Supprime les puces */
+    list-style: none;
+}
+
+a {
+    /* Style sur le texte (souligné, barré..) */
+    text-decoration: none;
+    /* underline */
+}
+
+/* La pseudo class :hover signifie au survole */
+a:hover {
+    color: red;
+}
