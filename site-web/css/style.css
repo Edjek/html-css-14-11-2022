@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     color: #333;
     font-size: 18px;
@@ -12,20 +11,29 @@ body {
     text-decoration: none;
 }
 
-
 a {
     text-decoration: none;
 }
 
 .about-us {
+    width: 80%;
+    max-width: 1080px;
+    min-width: 370px;
+
+    min-height: 250px;
+    margin: 50px auto;
+    padding: 50px 0;
+
+    /* border: 1px solid #999; */
+    /* box-shadow: 4px 4px 12px #999; */
     text-align: center;
 }
 
 .title {
+    margin-bottom: 30px;
     font-size: 30px;
     text-transform: uppercase;
 }
-
 
 .txt-uppercase {
     text-transform: uppercase;
@@ -37,4 +45,8 @@ a {
 
 .link-about-us:hover {
     color: pink;
+}
+
+.about-us p {
+    margin-bottom: 20px;
 }
