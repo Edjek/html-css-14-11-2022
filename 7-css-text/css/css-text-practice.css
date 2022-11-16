@@ -1,0 +1,51 @@
+/* Practice selector */
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: pink;
+    color: #fff;
+}
+
+.text-align {
+    text-align: right;
+}
+
+.subtitle {
+    color: blue;
+}
+
+h4,
+.sports li {
+    color: orange;
+}
+
+.txt-purple {
+    color: purple;
+}
+
+.links h2 {
+    color: red;
+}
+
+.movies {
+    color: green;
+}
+
+.txt-red {
+    text-decoration: underline;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.taxi-driver {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.natation {
+    font-style: italic;
+}

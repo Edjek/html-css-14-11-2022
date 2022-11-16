@@ -13,7 +13,7 @@ h2 {
     color: red;
 }
 
-/* On peut selectionner des balises spécifiques grâce aux class en utlisant le . */
+/* On peut selectionner des balises spécifiques grâce aux class en utilisant le . */
 /* Conséquence tous les elements qui ont cette class seront modifiés */
 .txt-color-blue {
     color: blue;
@@ -26,7 +26,7 @@ h2 {
     color: orange;
 }
 
-/* Je peux selectionner plusieurs elements en les séparant par une virgule */
+/* Je peux selectionner plusieurs elementsen meme temps en les séparant par une virgule */
 h4,
 .movies {
     color: pink;

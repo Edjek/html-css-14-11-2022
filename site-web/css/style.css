@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: #333;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.link-about-us {
+    color: red;
+}
+
+.link-about-us:hover {
+    color: pink;
+}

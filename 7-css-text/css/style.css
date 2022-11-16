@@ -23,7 +23,7 @@ p {
     text-transform: uppercase;
     /* lowercase | none | capitalize */
 
-    /* Il existe plusieurs unités pour les couleurs */
+    /* Il existe plusieurs unités pour les couleurs, les tailles, etc... */
     /* color: rgb(36, 142, 34); */
     /* color: black; */
     color: #333;
@@ -35,7 +35,7 @@ p {
 }
 
 li {
-    /* Supprime les puces */
+    /* Supprimer les puces */
     list-style: none;
 }
 

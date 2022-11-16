@@ -44,6 +44,7 @@
                     <textarea id="message"></textarea>
                 </div>
 
+                <!-- Les inputs de type checkbox, radio, select, doivent avoir un attribut value="" afin d'avoir une valeur -->
                 <div>
                     <label for="transport">moyen de transport</label>
                     <select id="transport">
@@ -60,6 +61,8 @@
                     <input type="checkbox" id="climb" value="climb" />
                 </div>
 
+                <!-- Les input de type radio doivent avoir un attribut de plus, name="" -->
+                <!-- Ils doivent avoir la même valeur pour ne pouvoir valider qu'un seul des choix -->
                 <div>
                     <span>Quel est votre sexe?</span>
                     <label for="men">homme</label>
@@ -68,7 +71,8 @@
                     <input type="radio" id="women" value="women" name="sex" />
                 </div>
 
-                <input type="submit" value="Soumettre" />
+                <!-- IMPORTANT un form doit avoir un input type="submit" pour soumettre le formulaire -->
+                <input type="submit" value="Valider" />
             </form>
         </div>
     </body>
