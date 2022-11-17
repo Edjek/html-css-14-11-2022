@@ -4,22 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
-    
-}
-
 .container {
     /* La propriete { display: flex; } donne un pouvoir sur les elements enfants directs  */
     display: flex;
     
     /* La propriete { flex-direction: ; } permet de choisir la direction de l'axe principale */
-    /* flex-direction: row; | column */
+    flex-direction: row; 
     
     /* La propriete { justify-content: ; } permet d'aligner dans le sens horizontal */
     justify-content: center; /* flex-start | center | flex-end | space-between | space-around */
     
     /* La propriete { justify-content: ; } permet d'aligner dans l'axe secondaire */
     align-items: center; /* flex-start | center | flex-end */
+    
     
     /* gap permet de mettre de l'espace entre les enfants direct */
     gap: 10px;

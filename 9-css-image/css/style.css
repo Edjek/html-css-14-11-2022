@@ -5,7 +5,7 @@
 }
 
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
     min-height: 400px;
     margin: 50px auto;
 
-    background-image: url(../img/mountains-640.jpg);
+    background-image: url(../img/lumn-1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
