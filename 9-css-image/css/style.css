@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* IMAGE 1 */
 .container {
     text-align: center;
     color: #fff;
@@ -22,6 +23,7 @@ body {
     background-position: center;
 }
 
+/* IMAGE 2 */
 .container-img {
     width: 450px;
     height: 300px;
@@ -36,7 +38,9 @@ body {
     object-position: center;
 }
 
+/* IMAGE 3 */
 .container-2 {
+    color: #fff;
     background-color: green;
     width: 90%;
     max-width: 1000px;
@@ -44,12 +48,17 @@ body {
     min-height: 400px;
     margin: 50px auto;
 
-    background-image: url(../img/lumn-1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.751), transparent), url(../img/lumn-1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* IMAGE 4 */
 .container-portrait {
     width: 200px;
     height: 200px;
