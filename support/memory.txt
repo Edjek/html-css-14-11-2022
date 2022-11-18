@@ -1,15 +1,14 @@
 <!-- Banque d'image -->
 https://pixabay.com/fr/
 https://unsplash.com/
+https://www.pexels.com/fr-fr/
 
 <!-- Les polices de caractère -->
 https://fonts.google.com/
 
 <!-- Pour des couleurs assortis en CSS -->
 https://coolors.co/
-
-<!-- W3C Validator -->
-https://jigsaw.w3.org/css-validator/
+https://colorhunt.co/
 
 <!-- Pour partager du CSS -->
 https://codepen.io/dihcar-cesar
