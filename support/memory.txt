@@ -1,17 +1,18 @@
 <!-- Banque d'image -->
 https://pixabay.com/fr/
+https://unsplash.com/
 
 <!-- Les polices de caractère -->
 https://fonts.google.com/
 
-<!-- Banque d'image -->
-https://pixabay.com/fr/
-
 <!-- Pour des couleurs assortis en CSS -->
 https://coolors.co/
 
-<!-- Pour vous exercer aux flexbox -->
-https://flexboxfroggy.com/#fr
+<!-- W3C Validator -->
+https://jigsaw.w3.org/css-validator/
 
 <!-- Pour partager du CSS -->
 https://codepen.io/dihcar-cesar
+
+<!-- Pour vous exercer aux flexbox -->
+https://flexboxfroggy.com/#fr
