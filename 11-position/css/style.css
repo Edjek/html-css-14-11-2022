@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* On agrandi la hauteur de la page pour avoir du scroll (200vh = 2 x la hauteur du navigateur) */
+    min-height: 200vh;
+    padding: 50px;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+.item {
+    width: 80%;
+    max-width: 1200px;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 50px 100px;
+    background-color: #610c63;
+    border-radius: 20px;
+}
+
+.item1 {
+    height: 100px;
+    background-color: #ee81b3;
+}
+
+.item2 {
+    height: 100px;
+    background-color: #3a5ba0;
+}
+
+.item3 {
+    height: 100px;
+    background-color: #fff9d7;
+}

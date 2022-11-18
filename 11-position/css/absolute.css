@@ -1,0 +1,21 @@
+.container {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    z-index: 1;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2980b9;
+}
+
+.definition {
+    /* position: relative; */
+    padding: 20px;
+    background-color: #52be80;
+}
+
+.definition2 {
+    text-align: center;
+}

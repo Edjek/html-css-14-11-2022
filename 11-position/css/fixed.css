@@ -1,0 +1,30 @@
+.container {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container1 {
+    bottom: 50px;
+    right: 50px;
+    z-index: 1;
+    background-color: #2980b9;
+}
+
+.container2 {
+    /* Valeur par defaut de z-index */
+    /* z-index: 0; */
+    bottom: 50px;
+    right: 150px;
+    background-color: #f39c12;
+}
+
+.definition {
+    padding: 20px;
+    background-color: #52be80;
+}
+
+.definition2 {
+    text-align: center;
+}

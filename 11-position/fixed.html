@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/fixed.css" />
+        <title>CSS - Position fixed</title>
+    </head>
+
+    <body>
+        <!-- {position: fixed;} -->
+        <div class="container container1"></div>
+        <div class="container container2"></div>
+
+        <div class="definition">
+            <h1>{ position: fixed; }</h1>
+            <p>
+                Un élément avec { position : fixed; } est positionné par rapport à la fenêtre d'affichage, ce qui signifie qu'il reste toujours au même endroit même si la page
+                défile.
+                <br />
+                Les propriétés top, right, bottom et left sont utilisées pour positionner l'élément.
+                <br />
+                Un élément fixe ne laisse pas de vide dans la page où il aurait normalement été situé, il sort du "flux". (il se retrouve comme sur un calque au dessus)
+                <br />
+                Remarquez les éléments fixed dans le coin inférieur droit de la page.
+            </p>
+            <div>
+                <a href="index.html">Accueil</a>
+            </div>
+            <div>
+                <a href="static.html">Voir aussi { position: static; }</a>
+            </div>
+            <div>
+                <a href="relative.html">Voir aussi { position: relative; }</a>
+            </div>
+            <div>
+                <a href="absolute.html">Voir aussi { position: absolute; }</a>
+            </div>
+            <div>
+                <a href="fixed.html">Voir aussi { position: fixed; }</a>
+            </div>
+        </div>
+        <div class="definition2">
+            <h2>Scrollez dans la page, les cercles restent à la même place</h2>
+        </div>
+    </body>
+</html>
