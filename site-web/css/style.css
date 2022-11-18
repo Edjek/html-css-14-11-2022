@@ -25,10 +25,12 @@ a {
 
 /* HEADER */
 .header {
+    /* On met le menu en fixed du coup on doit lui remettre la valeur { width: 100%; } */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +61,7 @@ a {
 }
 
 /* MAIN */
+/* Puisque le menu est en fixed et qu'il est sorti du flux, on met un {margin-top: 65px } */
 main {
     margin-top: 65px;
 }
@@ -134,7 +137,7 @@ main {
 }
 
 .container-up {
-    /* position static */
+    /* Valeur par defaut pour { position: static; } */
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -152,9 +155,11 @@ main {
     color: #fff;
 }
 
+/* FOOTER */
+
 /* MEDIA QUERY */
 /* 768px ecran de tablette */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .header {
         flex-direction: column;
         padding: 20px 80px;
@@ -165,7 +170,7 @@ main {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .primary-nav {
         flex-direction: column;
         align-items: center;
