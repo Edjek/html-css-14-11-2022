@@ -22,7 +22,7 @@ h1 {
     /* Hauteur */
     /* Par défaut la valeur est sur auto { height: auto; } */
     /* height: 200px; */
-    min-height: 200px;
+    min-height: 120px;
 
     /* Largeur */
     /* Par défaut la valeur est sur 100% { height: 100%; } */
@@ -59,6 +59,9 @@ h1 {
 
     /* { box-shadow: }  permet de créer une ombre */
     box-shadow: 4px 4px 8px #777;
+
+    /* Tout ce qui depasse de l'élément est caché */
+    /* overflow: hidden; */
 }
 
 .container {
@@ -70,7 +73,7 @@ h1 {
     max-width: 800px;
     min-width: 300px;
 
-    height: 600px;
+    height: 300px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -81,7 +84,10 @@ h1 {
     background-color: #eb5858;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     margin: 50px auto;
+
+    /* Pour créer un rond, on arrondi les bords, avec un border-radius au delà de 50% on obtiens un rond */
+    border-radius: 50%;
+
     box-shadow: 4px 4px 10px #777;
 }

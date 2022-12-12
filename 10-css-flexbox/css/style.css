@@ -4,23 +4,36 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+.flexbox {
+    width: 90%;
+    margin: 50px auto;
+}
+
 .container {
     /* La propriete { display: flex; } donne un pouvoir sur les elements enfants directs  */
     display: flex;
-    
+
     /* La propriete { flex-direction: ; } permet de choisir la direction de l'axe principale */
-    flex-direction: row; 
-    
+    /* Par default la valeur est sur row */
+    /* flex-direction:  column | row  */
+
     /* La propriete { justify-content: ; } permet d'aligner dans le sens horizontal */
-    justify-content: center; /* flex-start | center | flex-end | space-between | space-around */
-    
+    justify-content: space-around; /* flex-start | center | flex-end | space-between | space-around */
+
     /* La propriete { justify-content: ; } permet d'aligner dans l'axe secondaire */
-    align-items: center; /* flex-start | center | flex-end */
-    
-    
+    align-items: center; /* flex-start | center | flex-end | stretch */
+
     /* gap permet de mettre de l'espace entre les enfants direct */
     gap: 10px;
-    
+
     /* La propriete { flex-wrap: wrap; } fait retourner à la ligne les elements enfants s'ils n'ont plus de place */
     flex-wrap: wrap; /* nowrap */
 
@@ -29,7 +42,8 @@
 }
 
 .container p {
-    background-color: #3498db;
     width: 200px;
     height: 100px;
+    text-align: center;
+    background-color: #3498db;
 }

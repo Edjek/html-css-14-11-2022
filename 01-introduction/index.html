@@ -22,7 +22,7 @@
         <!-- la balise <hr> affiche une ligne, elle définit une pause thématique dans la page -->
         <hr />
 
-        <div>
+        <div id="up">
             <h2>Les paragraphes</h2>
             <p>Pour créer des <strong>paragraphes</strong> nous allons utiliser la <span>balise</span> p</p>
             <p>
@@ -63,6 +63,7 @@
             <h2>Les images</h2>
             <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
             <img src="img/bart.png" alt="une image de Bart" title="coucou je suis bart" />
+            <img src="img/error.png" alt="Je suis le message alternatif qui s'affiche quand l'image n'est pas presente " />
         </div>
 
         <hr />
@@ -79,6 +80,11 @@
             <div>
                 <!-- lien vers une page de notre site -->
                 <a href="view/contact.html">contact</a>
+            </div>
+
+            <div>
+                <!-- lien dans la page, je mène vers la balise qui a l'id="up" -->
+                <a href="#up">les paragraphes</a>
             </div>
 
             <div>

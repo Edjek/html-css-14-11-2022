@@ -41,13 +41,13 @@ body {
 /* IMAGE 3 */
 .container-2 {
     color: #fff;
-    background-color: green;
     width: 90%;
     max-width: 1000px;
     min-width: 400px;
     min-height: 400px;
     margin: 50px auto;
-
+    
+    background-color: rgb(127, 139, 154);
     background-image: linear-gradient(rgba(0, 0, 0, 0.751), transparent), url(../img/lumn-1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
