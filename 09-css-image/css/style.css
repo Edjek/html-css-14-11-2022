@@ -12,7 +12,7 @@ body {
 .container {
     text-align: center;
     color: #fff;
-    background-color: blue;
+    background-color: rgb(44, 77, 174);
     width: 600px;
     height: 400px;
     margin: 50px auto;
@@ -21,6 +21,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
+
+    /* Version raccourci { background: ;} */
+    /* background: url(../img/mountains-640.jpg) no-repeat center / cover; */
 }
 
 /* IMAGE 2 */
@@ -46,7 +50,7 @@ body {
     min-width: 400px;
     min-height: 400px;
     margin: 50px auto;
-    
+
     background-color: rgb(127, 139, 154);
     background-image: linear-gradient(rgba(0, 0, 0, 0.751), transparent), url(../img/lumn-1920.jpg);
     background-size: cover;
